@@ -1,0 +1,15 @@
+#general description
+This project describes the 3D computational continuum model of arterial thrombosis.
+Computations using this model showed good quantitive agreement with experimental data on thrombus growth in laser-induced thrombosis
+in cremaster arterioles in wild type mice and mice with Hermansky-Pudlac syndrome.
+Experimenal data was taken from papers:
+1.	Stalker, T. J., Traxler, E. A., Wu, J., Wannemacher, K. M., Cermignano, S. L., Voronov, R., ... & Brass, L. F. (2013). Hierarchical organization in the hemostatic response and its relationship to the platelet-signaling network. Blood, The Journal of the American Society of Hematology, 121(10), 1875-1885.
+2.	Meng, R., Wu, J., Harper, D. C., Wang, Y., Kowalska, M. A., Abrams, C. S., ... & Marks, M. S. (2015). Defective release of α granule and lysosome contents from platelets in mouse Hermansky-Pudlak syndrome models. Blood, The Journal of the American Society of Hematology, 125(10), 1623-1632.
+
+The model takes into account irreversible platelet activation by thrombin, reversible platelet activation by ADP, platelet dense granule secretion in response to thrombin, heterogeneous structure of thrombus consisting of core and shell zone with different porosity values, as well as transport of thrombin and secreted ADP molecules, and thrombin inactivation by plasma inhibitors.
+The crucial model parameters were taken from the in vitro experiments with mouse platelets.   
+Model uses Comsol Multiphysics software (version 5.6.) 
+2D version of the model described above was applied to analize FeCl3-induced thrombosis in mouse carotid artery and showed qualitative agreement with experimental data.
+Experimenal data was taken from papers:
+1.	Li, W., McIntyre, T. M., & Silverstein, R. L. (2013). Ferric chloride-induced murine carotid arterial injury: A model of redox pathology. Redox biology, 1(1), 50-55.
+2.	Eckly, A., Hechler, B., Freund, M., Zerr, M., Cazenave, J. P., Lanza, F., ... & Gachet, C. (2011). Mechanisms underlying FeCl3‐induced arterial thrombosis. Journal of Thrombosis and Haemostasis, 9(4), 779-789.
