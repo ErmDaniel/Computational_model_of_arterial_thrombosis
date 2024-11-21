@@ -6,12 +6,6 @@ Disk space : 70 Gb
 Basic file calculating laser-induced thrombosis in wild type mouse
 3d_mouse_laser_injury_wild_type_normal_mesh.mph
 
-Same calculation but with coarse mesh, and decreased threshold of ADP-induced platelet activation
-(this modification was introduced to get results close to more precise results obtained with 
-basic file mouse_laser_injury_wild_type_normal_mesh.mph). 
-It calculates faster and demands less memory compared to basic file.
-3d_mouse_laser_injury_wild_type_coarse_mesh.mph
-
 Same calculation but with another error indicator function (in Adaptive mesh refiniment feature in Study)
 This error function showed more robust behaviour in our 2D calculations, and may be useful if significant modification to model geometry (or model parameters)
 will be applied.
